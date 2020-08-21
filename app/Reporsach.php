@@ -36,6 +36,7 @@ class Reporsach extends Model
 		$sachs->author = $sach->getTacgia();
 		$sachs->p_year = $sach->getNamsx();
 		return $sachs->save();
+        //111
 	}
 
 	public function deleteSach($sach)
